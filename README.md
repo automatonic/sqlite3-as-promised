@@ -1,13 +1,21 @@
-# sqlite3-promises
+# sqlite3-as-promised
 
-sqlite3 wrapper using q.js promises
+Wrap sqlite3's async methods with the "q" style promises.
 
 ## Getting Started
-Install the module with: `npm install sqlite3-promises`
+Install the module with: `npm install sqlite3-as-promised`
 
 ```javascript
-var sqlite3_promises = require('sqlite3-promises');
-sqlite3_promises.awesome(); // "awesome"
+var sap = require('sqlite3-as-promised');
+var sqlite3 = require('sqlite3');
+var db = new sqlite3.Database(':memory:');
+
+//init, etc.
+
+sap.all(db, 'SELECT * FROM table')
+    .then(function(rows) {
+            //Do something with rows
+        });
 ```
 
 ## Documentation
