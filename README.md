@@ -1,13 +1,13 @@
 # sqlite3-as-promised
 
-Wrap sqlite3's async methods with the "q" style promises.
+Wrap [node-sqlite3](https://github.com/developmentseed/node-sqlite3)'s async methods with the ["q" style promises](https://github.com/kriskowal/q).
 
 ## Getting Started
 Install the module with: `npm install sqlite3-as-promised`
 
 ```javascript
 var sap = require('sqlite3-as-promised');
-var sqlite3 = require('sqlite3');
+var sqlite3 = require('node-sqlite3');
 var db = new sqlite3.Database(':memory:');
 
 //init, etc.
