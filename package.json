@@ -1,6 +1,6 @@
 {
-  "name": "sqlite3-promises",
-  "description": "sqlite3 wrapper using q.js promises",
+  "name": "sqlite3-as-promised",
+  "description": "Wrap node-sqlite3's async methods with the 'q' style promises in node.js",
   "version": "0.1.0",
   "homepage": "https://github.com/automatonic/sqlite3-as-promised",
   "author": {
@@ -31,5 +31,15 @@
   "devDependencies": {
     "grunt": "~0.3.17"
   },
-  "keywords": []
+  "keywords": [
+    "sqlite3",
+    "promise",
+    "q",
+    "async",
+    "create",
+    "node"
+  ],
+  "dependencies": {
+    "underscore": "~1.4.3"
+  }
 }
