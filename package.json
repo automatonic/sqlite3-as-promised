@@ -1,7 +1,7 @@
 {
   "name": "sqlite3-as-promised",
   "description": "Wrap node-sqlite3's async methods with the 'q' style promises in node.js",
-  "version": "0.1.0",
+  "version": "0.1.0-1",
   "homepage": "https://github.com/automatonic/sqlite3-as-promised",
   "author": {
     "name": "Elliott B. Edwards",
