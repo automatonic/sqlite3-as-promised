@@ -7,7 +7,7 @@ Install the module with: `npm install sqlite3-as-promised`
 
 ```javascript
 var sap = require('sqlite3-as-promised');
-var sqlite3 = require('node-sqlite3');
+var sqlite3 = require('sqlite3');
 var db = new sqlite3.Database(':memory:');
 
 //init, etc.
