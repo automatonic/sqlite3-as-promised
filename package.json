@@ -1,0 +1,35 @@
+{
+  "name": "sqlite3-promises",
+  "description": "sqlite3 wrapper using q.js promises",
+  "version": "0.1.0",
+  "homepage": "https://github.com/automatonic/sqlite3-as-promised",
+  "author": {
+    "name": "Elliott B. Edwards",
+    "email": "elliott@automatonic.net",
+    "url": "http://automatonic.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/automatonic/sqlite3-as-promised.git"
+  },
+  "bugs": {
+    "url": "https://github.com/automatonic/sqlite3-as-promised/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/automatonic/sqlite3-as-promised/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/sqlite3-as-promised",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.17"
+  },
+  "keywords": []
+}
