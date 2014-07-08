@@ -1,4 +1,4 @@
-# sqlite3-as-promised
+# sqlite3-as-promised [Abandoned]
 
 Wrap [node-sqlite3](https://github.com/developmentseed/node-sqlite3)'s async methods with the ["q" style promises](https://github.com/kriskowal/q).
 
